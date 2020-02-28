@@ -1,0 +1,72 @@
+.bandera {
+    height: 400px;
+    width: 600px;
+    border: 2px solid;
+    background: #131841;
+    display: flex;
+    font-size: 16px;
+}
+
+.izquierda {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.derecha {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blancoDerecha {
+    height: 42%;
+    width: 85%;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rojo2 {
+    align-self: flex-end;
+  }
+
+.blancoDerecha2 {
+    height: 42%;
+    width: 85%;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.derecha .blanco{
+    width: 90%;
+}
+
+.blancoDerecha .rojo {
+    width: 94%;
+}
+
+.blancoDerecha2 .rojo {
+    width: 94%;
+}
+
+
+.blanco {
+    height: 42%;
+    width: 80%;
+    background: white;
+    display: flex;
+}
+
+.rojo {
+    background: red;
+    height: 90%;
+    width: 90%;
+}
