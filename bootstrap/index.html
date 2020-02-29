@@ -45,15 +45,17 @@
               <a class="nav-link" href="#senseis">Senseis</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#place-time"
-                >Lugar y fecha</a
-              >
+              <a class="nav-link" href="#place-time">Lugar y fecha</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalInscripcion">Inscribete</a>
-              </li>
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#modalInscripcion"
+                >Inscribete</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -62,31 +64,122 @@
 
     <!-- Main -->
     <div id="main">
-        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="img/foto1.jpg" class="d-block w-100" alt="Foto 1">
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/foto1.jpg" class="d-block w-100" alt="Foto 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto2.jpg" class="d-block w-100" alt="Foto 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto3.jpg" class="d-block w-100" alt="Foto 3" />
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 offset-md-6 text-center text-md-right">
+                <h1>Devf Pagina</h1>
+                <p class="d-none d-md-block">Este es un parrafo</p>
+                <a href="" class="btn btn-outline-light">Quiero inscribirme</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalInscripcion">
+                  Inscribirme a Devf
+                </button>
               </div>
-              <div class="carousel-item">
-                <img src="img/foto2.jpg" class="d-block w-100" alt="Foto 2">
-              </div>
-              <div class="carousel-item">
-                <img src="img/foto3.jpg" class="d-block w-100" alt="Foto 3">
-              </div>
-            </div>
-            <div class="overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 offset-md-6 text-center text-md-right">
-                            <h1>Devf Pagina</h1>
-                            <p class="d-none d-md-block">Este es un parrafo</p>
-                            <a href="" class="btn btn-outline-light">Quiero inscribirme</a>
-                            <button type="button" class="btn btn-primary">Inscribirme a Devf</button>
-                        </div>
-                    </div>
-                </div>
             </div>
           </div>
+        </div>
+      </div>
     </div>
+    <!-- Main -->
+
+    <!-- Senseis-->
+
+    <section id="senseis" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/foto4.jpg" class="card-img-top" alt="foto 4">
+              <div class="card-body">
+                <h5 class="card-title">Cinta Blanca</h5>
+                <p class="card-text">Soy el sensei de cinta blanca y aprendemos html y css</p>
+                <a href="#" class="btn btn-danger">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Senseis-->
+
+    <!-- hora y fecha -->
+
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="img/foto3.jpg" alt="v09" />
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>
+              V09 - Pabellon M
+            </h2>
+            <p>
+                El mejor lugar para aprender
+            </p>
+            <a href="https://www.google.com" target="_blank" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalInscripcion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Comprar Clase</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="">
+                    <div class="form-row">
+                      <div class="form-group col">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="alert alert-warning" role="alert">
+                    Recibirás un correo de confirmación.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-devf">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Modal -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
